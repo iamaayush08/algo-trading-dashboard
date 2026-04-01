@@ -1,4 +1,4 @@
-
+st.write("### ✅ Imports Successful...") # Move it here
 """ 
 ╔══════════════════════════════════════════════════════════════╗
 ║        AI TRADING BOT  —  STREAMLIT DASHBOARD               ║
@@ -50,7 +50,7 @@ run_ml = bot.run_ml
 
 
 
-st.write("### ✅ Imports Successful...") # Move it here
+
 
 # ══════════════════════════════════════════════════════════════
 #  DARK THEME CSS
