@@ -1,4 +1,5 @@
-st.write("### ✅ Imports Successful...") # Move it here
+import streamlit as st
+st.write("### 🚀 System Booting...")
 """ 
 ╔══════════════════════════════════════════════════════════════╗
 ║        AI TRADING BOT  —  STREAMLIT DASHBOARD               ║
