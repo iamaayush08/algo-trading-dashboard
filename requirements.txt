@@ -6,3 +6,4 @@ plotly
 ta
 xgboost
 scikit-learn
+matplotlib
