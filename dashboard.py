@@ -36,15 +36,16 @@ st.set_page_config(
 )
 
 # ── import bot functions ─────────────────────────────────────
-sys.path.insert(0, os.path.dirname(__file__))
-try:
-    from trading_bot_final import (
-        fetch, add_indicators, score_signals,
-        dedup_signals, pair_trades, run_ml,
-    )
-except ImportError:
-    st.error("trading_bot_final.py not found. Make sure it's in the same folder.")
-    st.stop()
+# ── import bot functions ─────────────────────────────────────
+import trading_bot_final as bot
+
+# Connecting the dashboard to your Signal Edition logic
+fetch = bot.fetch
+add_indicators = bot.add_indicators
+score_signals = bot.score_signals
+dedup_signals = bot.dedup_signals
+pair_trades = bot.pair_trades
+run_ml = bot.run_ml
 
 
 # ══════════════════════════════════════════════════════════════
