@@ -1,5 +1,4 @@
-import streamlit as st
-st.write("### 🚀 System Booting...")
+
 """ 
 ╔══════════════════════════════════════════════════════════════╗
 ║        AI TRADING BOT  —  STREAMLIT DASHBOARD               ║
@@ -48,6 +47,8 @@ score_signals = bot.score_signals
 dedup_signals = bot.dedup_signals
 pair_trades = bot.pair_trades
 run_ml = bot.run_ml
+
+st.write("### ✅ Imports Successful...")
 
 
 
